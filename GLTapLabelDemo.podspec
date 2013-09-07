@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |s|
   s.name         = "GLTapLabelDemo"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "UILabel with tap detection on words."
   s.description  = "A twitter style UILabel that is tappable once you set the enableUserInteractive to YES."
   s.homepage     = "https://github.com/victorwon/GLTapLabelDemo"
