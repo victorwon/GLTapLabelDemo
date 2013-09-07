@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2151E51417DAB8E500CBC834 /* GLTapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2151E51217DAB8E500CBC834 /* GLTapLabel.m */; };
+		2151E51517DAB8E500CBC834 /* GLTapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2151E51217DAB8E500CBC834 /* GLTapLabel.m */; };
 		31FBE297148815B30028DD79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FBE296148815B30028DD79 /* UIKit.framework */; };
 		31FBE299148815B30028DD79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FBE298148815B30028DD79 /* Foundation.framework */; };
 		31FBE29B148815B30028DD79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FBE29A148815B30028DD79 /* CoreGraphics.framework */; };
@@ -20,7 +22,6 @@
 		31FBE2B7148815B40028DD79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FBE298148815B30028DD79 /* Foundation.framework */; };
 		31FBE2BF148815B40028DD79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31FBE2BD148815B40028DD79 /* InfoPlist.strings */; };
 		31FBE2C2148815B40028DD79 /* GLTapLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBE2C1148815B40028DD79 /* GLTapLabelDemoTests.m */; };
-		31FBE2D2148816680028DD79 /* GLTapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBE2D0148816680028DD79 /* GLTapLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2151E51117DAB8E500CBC834 /* GLTapLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTapLabel.h; sourceTree = "<group>"; };
+		2151E51217DAB8E500CBC834 /* GLTapLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLTapLabel.m; sourceTree = "<group>"; };
+		2151E51317DAB8E500CBC834 /* GLTapLabelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTapLabelDelegate.h; sourceTree = "<group>"; };
 		31FBE292148815B30028DD79 /* GLTapLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLTapLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31FBE296148815B30028DD79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		31FBE298148815B30028DD79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,9 +57,6 @@
 		31FBE2BE148815B40028DD79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		31FBE2C0148815B40028DD79 /* GLTapLabelDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLTapLabelDemoTests.h; sourceTree = "<group>"; };
 		31FBE2C1148815B40028DD79 /* GLTapLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLTapLabelDemoTests.m; sourceTree = "<group>"; };
-		31FBE2CF148816680028DD79 /* GLTapLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTapLabel.h; sourceTree = "<group>"; };
-		31FBE2D0148816680028DD79 /* GLTapLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLTapLabel.m; sourceTree = "<group>"; };
-		31FBE2D1148816680028DD79 /* GLTapLabelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTapLabelDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2151E51017DAB8E500CBC834 /* GLTapLabel */ = {
+			isa = PBXGroup;
+			children = (
+				2151E51117DAB8E500CBC834 /* GLTapLabel.h */,
+				2151E51217DAB8E500CBC834 /* GLTapLabel.m */,
+				2151E51317DAB8E500CBC834 /* GLTapLabelDelegate.h */,
+			);
+			path = GLTapLabel;
+			sourceTree = "<group>";
+		};
 		31FBE287148815B30028DD79 = {
 			isa = PBXGroup;
 			children = (
@@ -115,14 +126,12 @@
 		31FBE29C148815B30028DD79 /* GLTapLabelDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2151E51017DAB8E500CBC834 /* GLTapLabel */,
 				31FBE2A5148815B30028DD79 /* GLAppDelegate.h */,
 				31FBE2A6148815B30028DD79 /* GLAppDelegate.m */,
 				31FBE2A8148815B40028DD79 /* GLViewController.h */,
 				31FBE2A9148815B40028DD79 /* GLViewController.m */,
 				31FBE2AB148815B40028DD79 /* GLViewController.xib */,
-				31FBE2CF148816680028DD79 /* GLTapLabel.h */,
-				31FBE2D0148816680028DD79 /* GLTapLabel.m */,
-				31FBE2D1148816680028DD79 /* GLTapLabelDelegate.h */,
 				31FBE29D148815B30028DD79 /* Supporting Files */,
 			);
 			path = GLTapLabelDemo;
@@ -267,7 +276,7 @@
 				31FBE2A3148815B30028DD79 /* main.m in Sources */,
 				31FBE2A7148815B30028DD79 /* GLAppDelegate.m in Sources */,
 				31FBE2AA148815B40028DD79 /* GLViewController.m in Sources */,
-				31FBE2D2148816680028DD79 /* GLTapLabel.m in Sources */,
+				2151E51417DAB8E500CBC834 /* GLTapLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31FBE2C2148815B40028DD79 /* GLTapLabelDemoTests.m in Sources */,
+				2151E51517DAB8E500CBC834 /* GLTapLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +447,7 @@
 				31FBE2C7148815B40028DD79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31FBE2C8148815B40028DD79 /* Build configuration list for PBXNativeTarget "GLTapLabelDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +456,7 @@
 				31FBE2CA148815B40028DD79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

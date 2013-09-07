@@ -28,11 +28,13 @@
     @private
     NSMutableArray *hotZones;
     NSMutableArray *hotWords;
-    UIFont *hotFont;
-    UIColor *linkColor;
 }
 
-@property(nonatomic,assign) id<GLTapLabelDelegate> delegate;
+@property(nonatomic,weak) id<GLTapLabelDelegate> delegate;
+
+@property(nonatomic,retain) UIFont *hotFont;
 @property(nonatomic,retain) UIColor *linkColor;
+@property(nonatomic,assign) BOOL underlineLink;
+
 
 @end
